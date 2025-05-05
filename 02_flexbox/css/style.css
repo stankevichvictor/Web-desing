@@ -1,0 +1,19 @@
+body {
+    background-color: chartreuse;
+    height: 100hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: blanchedalmond;
+    width: 300px;
+    height: 300px;
+    overflow: scroll;
+    border: 2px solid #ff1234;
+    border-radius: 5px;
+    gap: 50px;
+    .container:hover{
+        box-shadow: 0px 0px 20px #330022;
+    }
+}
